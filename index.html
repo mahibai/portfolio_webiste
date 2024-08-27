@@ -3,244 +3,277 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>personal portfolio website</title>
+    <title>Mahesh ND | Full Stack Developer Portfolio</title>
 
-    <!-- font awesome cdn link  -->
+    <!-- Font Awesome CDN link for icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
 
-    <!-- custom css file link  -->
+    <!-- Custom CSS file link -->
     <link rel="stylesheet" href="style.css">
-
 </head>
 <body>
     
-<!-- header section starts  -->
-
+<!-- Header section starts -->
 <header>
-
     <div class="user">
-        <img src="images/profile.jpg" alt="">
+        <img src="images/profile.jpg" alt="Mahesh ND Profile Picture">
         <h3 class="name">Mahesh ND</h3>
-        <p class="post1">Computer Science And Engineering</p>
-        <p class="post2">Global Academy Of Technology</p>
+        <p class="post1">Full Stack Developer</p>
+        <p class="post2">ReactJS | Django | Python | JavaScript</p>
     </div>
 
     <nav class="navbar">
         <ul>
-            <li><a href="#home">home</a></li>
+            <li><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
             <li><a href="#education">Education</a></li>
-            <li><a href="#Projects">Projects</a></li>
-            <li><a href="#contact">contact</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
-
 </header>
+<!-- Header section ends -->
 
-<!-- header section ends -->
-
+<!-- Menu icon for mobile view -->
 <div id="menu" class="fas fa-bars"></div>
 
-<!-- home section starts  -->
-
+<!-- Home section starts -->
 <section class="home" id="home">
-
-    <h1>HI THERE !</h1>
-    <h3>I'M <span>Mahesh ND</span></h3>
-    <p>Iam Student at Global Academy of Technology pursuing Btech in Computer science and Engineering.<br>
-        This Portfolio is the representaion of all that I've learned and accomplished as a Science and engineering Student.<br>
-        I love designing websites and Iam looking for more opportunities to work in coding on a freelance basis. 
+    <h1>Welcome!</h1>
+    <h3>I'm <span>Mahesh ND</span></h3>
+    <p>
+        I am a passionate Full Stack Developer skilled in creating dynamic, responsive web applications using modern frameworks like ReactJS for frontend and Django for backend. I am dedicated to continuous learning and building robust, scalable solutions.
     </p>
-    <a href="#about"><button class="btn">About Me <i class="fas fa-user"></i></button></a>
-
+    <a href="#about"><button class="btn">Learn More About Me <i class="fas fa-user"></i></button></a>
 </section>
+<!-- Home section ends -->
 
-<!-- home section ends -->
-
-<!-- about section starts  -->
-
+<!-- About section starts -->
 <section class="about" id="about">
+    <h1 class="heading"> About <span>Me</span> </h1>
+    <div class="box-container">
+        <!-- Card 1 -->
+        <div class="box">
+            <i class="fas fa-user-graduate"></i>
+            <h3>Background</h3>
+            <p>
+                BTech graduate in Computer Science and Engineering from Global Academy of Technology with a strong foundation in software development and a passion for creating innovative solutions.
+            </p>
+        </div>
 
-<h1 class="heading"> <span>About</span> Me </h1>
+        <!-- Card 2 -->
+        <div class="box">
+            <i class="fas fa-laptop-code"></i>
+            <h3>Professional Skills</h3>
+            <p>
+                Expertise in frontend development with ReactJS, backend development with Django, and database management with SQL, PostgreSQL, and MongoDB. Proficient in creating RESTful APIs and deploying applications on AWS.
+            </p>
+        </div>
 
-<div class="row">
+        <!-- Card 3 -->
+        <div class="box">
+            <i class="fas fa-award"></i>
+            <h3>Achievements</h3>
+            <p>
+                Won 2nd prize in a national-level hackathon and completed Google Data Analytics certification. Consistently worked on diverse projects ranging from e-commerce platforms to AI-powered applications.
+            </p>
+        </div>
 
-    <div class="info">
-        <h3> <span> Name : </span> Mahesh ND </h3>
-        <h3> <span> Age : </span> 22 </h3>
-        <h3> <span> Education : </span> CSE Student </h3>
-        <h3> <span> College : </span> Global Academy Of Technology </h3>
-        <h3> <span> language : </span> English, Kannnada, Hindi </h3>
-        <a href="Mahesh_ND_Resume.pdf"><button class="btn"> View CV <i class="fas fa-download"></i> </button></a>
+        <!-- Card 4 -->
+        <div class="box">
+            <i class="fas fa-users"></i>
+            <h3>Community Involvement</h3>
+            <p>
+                Actively participate in developer communities, contribute to open-source projects, and mentor budding developers in JavaScript and Python through various online platforms.
+            </p>
+        </div>
+
+        <!-- Card 5 -->
+        <div class="box">
+            <i class="fas fa-globe"></i>
+            <h3>Languages</h3>
+            <p>
+                Fluent in English, Kannada, and Hindi, allowing for effective communication and collaboration in diverse environments.
+            </p>
+        </div>
     </div>
 
-    <div class="counter">
-
-        <div class="box">
-            <span>10+</span>
-            <h3>projects on CV2 and Yolo</h3>
-        </div>
-
-        <div class="box">
-            <span>20+</span>
-            <h3>projects on Machne Learning with Flask and Django Frameworks</h3>
-        </div>
-
-        <div class="box">
-            <span>Hackathon</span>
-            <h3>Have won a 2ND prize in National Level Hackathon Conducted at Gat,Banglore</h3>
-        </div>
-
-        <div class="box">
-            <span>Certification</Back-End></span>
-            <h3>Google Data Analytics Certification provided by Coursera.</h3>
-        </div>
-
-    </div>
-
-</div>
-
+    <a href="Mahesh_ND_Resume.pdf"><button class="btn"> View CV <i class="fas fa-download"></i> </button></a>
 </section>
+<!-- About section ends -->
 
-<!-- about section ends -->
+<!-- Skills section starts -->
+<section class="skills" id="skills">
+    <h1 class="heading"> My <span>Skills</span> </h1>
+    <div class="skills-container">
+        <div class="skill">
+            <i class="fab fa-react"></i>
+            <h3>ReactJS</h3>
+            <p>Building responsive and dynamic user interfaces.</p>
+        </div>
+        <div class="skill">
+            <i class="fab fa-python"></i>
+            <h3>Django</h3>
+            <p>Developing robust backend applications with RESTful APIs.</p>
+        </div>
+        <div class="skill">
+            <i class="fas fa-database"></i>
+            <h3>Database Management</h3>
+            <p>Experience with SQL, PostgreSQL, and MongoDB.</p>
+        </div>
+        <div class="skill">
+            <i class="fas fa-code"></i>
+            <h3>JavaScript</h3>
+            <p>Advanced JavaScript for both frontend and backend development.</p>
+        </div>
+        <div class="skill">
+            <i class="fas fa-cloud"></i>
+            <h3>Cloud Services</h3>
+            <p>Deploying applications on AWS and Azure.</p>
+        </div>
+    </div>
+</section>
+<!-- Skills section ends -->
 
-<!-- education section starts  -->
-
+<!-- Education section starts -->
 <section class="education" id="education">
+    <h1 class="heading"> My <span>Education</span> </h1>
+    <div class="box-container">
+        <div class="box">
+            <i class="fas fa-graduation-cap"></i>
+            <span>2018</span>
+            <h3>Our School</h3>
+            <p>Schooling<br>
+            1st std-10th std (2008-2018)<br>
+            Subjects: English, Kannada, Hindi, Maths, Science, Social Studies.<br>
+            Percentage: 89.44
+            </p>
+        </div>
 
-<h1 class="heading"> my <span>education</span> </h1>
+        <div class="box">
+            <i class="fas fa-graduation-cap"></i>
+            <span>2020</span>
+            <h3>SN Bhat PU College</h3>
+            <p>Pre-University<br>
+                1st and 2nd PUC (2018-2020)<br>
+                Subjects: English, Kannada, Physics, Chemistry, Mathematics, Biology.<br>
+                Percentage: 83.33
+            </p>
+        </div>
 
-<div class="box-container">
-
-    <div class="box">
-        <i class="fas fa-graduation-cap"></i>
-        <span>2018</span>
-        <h3>Our School</h3>
-        <p>Schooling<br>
-        1st std-10th std (2008-2018)<br>
-        Subjets : English, Kannnada, Hindi, Maths, Science, Social Studies.<br>
-        Percentage : 89.44
-        </p>
+        <div class="box">
+            <i class="fas fa-graduation-cap"></i>
+            <span>2024</span>
+            <h3>Global Academy Of Technology</h3>
+            <p>Graduation<br>
+                BTech (2020-2024)<br>
+                Stream: Computer Science and Engineering<br>
+                CGPA: 8.67
+            </p>
+        </div>
     </div>
-
-    <div class="box">
-        <i class="fas fa-graduation-cap"></i>
-        <span>2020</span>
-        <h3>SN Bhat PU College</h3>
-        <p>Pre-University</Pre-University><br>
-            1st and 2nd PUC (2018-2020)<br>
-            Subjets : English, Kannnada, Physics, Chemistry, Mathematics, Biology.<br>
-            Percentage : 83.33
-        </p>
-    </div>
-
-    <div class="box">
-        <i class="fas fa-graduation-cap"></i>
-        <span>2024</span>
-        <h3>Global Academy Of Technology</h3>
-        <p>Graduation<br>
-            BTech (2020-2024)<br>
-            Stream :Computer Science and Engineering<br>
-            CGPA : 8.67
-        </p>
-    </div>
-
-</div>
-
 </section>
+<!-- Education section ends -->
 
-<!-- education section ends -->
+<!-- Projects section starts -->
+<section class="projects" id="projects">
+    <h1 class="heading"> My <span>Projects</span> </h1>
+    <div class="box-container">
+        <!-- Project 1 -->
+        <div class="box">
+            <img src="images/img1.jfif" alt="Chatbot">
+            <div class="project-content">
+                <h3>Chatbot</h3>
+                <p>A conversational AI chatbot developed for customer support and interaction.</p>
+            </div>
+        </div>
+        
+        <!-- Project 2 -->
+        <div class="box">
+            <img src="images/img2.jfif" alt="E-commerce website">
+            <div class="project-content">
+                <h3>E-commerce Website</h3>
+                <p>A fully functional e-commerce platform with product management and payment integration.</p>
+            </div>
+        </div>
 
-<!-- Projects section starts  -->
+        <!-- Project 3 -->
+        <div class="box">
+            <img src="images/img3.jfif" alt="Face recognition Attendance website">
+            <div class="project-content">
+                <h3>Face Recognition Attendance</h3>
+                <p>An automated attendance system using face recognition technology.</p>
+            </div>
+        </div>
 
-<section class="Projects" id="Projects">
+        <!-- Project 4 -->
+        <div class="box">
+            <img src="images/img4.jfif" alt="Music Player">
+            <div class="project-content">
+                <h3>Music Player</h3>
+                <p>A responsive music player application with playlist and streaming support.</p>
+            </div>
+        </div>
 
-<h1 class="heading"> My <span>Projects</span> </h1>
+        <!-- Project 5 -->
+        <div class="box">
+            <img src="images/img5.jfif" alt="Employee Management system">
+            <div class="project-content">
+                <h3>Employee Management System</h3>
+                <p>A comprehensive system for managing employee records, attendance, and payroll.</p>
+            </div>
+        </div>
 
-<div class="box-container">
-
-    <div class="box">
-        <img src="images/img1.jfif" alt="Chatbot">
+        <!-- Project 6 -->
+        <div class="box">
+            <img src="images/img6.jfif" alt="Handwriting Recognition Evaluation system">
+            <div class="project-content">
+                <h3>Handwriting Recognition System</h3>
+                <p>An evaluation system for recognizing and analyzing handwritten text.</p>
+            </div>
+        </div>
     </div>
-
-    <div class="box">
-        <img src="images/img2.jfif" alt="E-commerce website">
-    </div>
-
-    <div class="box">
-        <img src="images/img3.jfif" alt="Face recognition Attendance website">
-    </div>
-
-    <div class="box">
-        <img src="images/img4.jfif" alt="Music Player">
-    </div>
-
-    <div class="box">
-        <img src="images/img5.jfif" alt="Employee Management system">
-    </div>
-
-    <div class="box">
-        <img src="images/img6.jfif" alt="Handwriting Recongition Evaluation system">
-    </div>
-
-</div>
-
 </section>
-
 <!-- Projects section ends -->
 
-<!-- contact section starts  -->
 
+<!-- Contact section starts -->
 <section class="contact" id="contact">
-
-<h1 class="heading"> <span>contact</span> me </h1>
-
-<div class="row">
-
-    <div class="content">
-
-        <h3 class="title">contact info</h3>
-
-        <div class="info">
-            <h3> <i class="fas fa-envelope"></i><a href="mailto:maheshndevraj@gmail.com">maheshndevraj@gmail.com</a> </h3>
-            <h3> <i class="fas fa-phone"></i> +91 8618067987</h3>
-            <h3> <i class="fas fa-phone"></i> +919241603525</h3>
-            <h3> <i class="fas fa-map-marker-alt"></i> Bengaluru, Karnataka, india - 560085. </h3>
+    <h1 class="heading"> <span>Contact</span> Me </h1>
+    <div class="row">
+        <div class="content">
+            <h3 class="title">Get in Touch</h3>
+            <div class="info">
+                <h3><i class="fas fa-envelope"></i> <a href="mailto:mahibhahadur@gmail.com">mahibhahadur@gmail.com</a></h3>
+                <h3><i class="fas fa-phone"></i> +91 8618067987</h3>
+                <h3><i class="fas fa-map-marker-alt"></i> Karnataka, India</h3>
+            </div>
         </div>
 
+        <form action="https://formsubmit.co/mahibhahadur@gmail.com" method="POST">
+            <input type="text" placeholder="Your Name" class="box" required>
+            <input type="email" placeholder="Your Email" class="box" required>
+            <textarea placeholder="Your Message" class="box" required></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
     </div>
-
-    <form action="">
-
-        <input type="text" placeholder="name" class="box">
-        <input type="email" placeholder="email" class="box">
-        <input type="text" placeholder="project" class="box">
-        <textarea name="" id="" cols="30" rows="10" class="box message" placeholder="message"></textarea>
-        <button type="submit" class="btn"> send <i class="fas fa-paper-plane"></i> </button>
-
-    </form>
-
-</div>
-
 </section>
+<!-- Contact section ends -->
 
-<!-- contact section ends -->
+<!-- Footer section starts -->
+<footer>
+    <div class="social-links">
+        <a href="#" class="fab fa-linkedin"></a>
+        <a href="#" class="fab fa-github"></a>
+        <a href="#" class="fab fa-twitter"></a>
+    </div>
+    <p>© 2024 Mahesh ND. All rights reserved.</p>
+</footer>
+<!-- Footer section ends -->
 
-
-<!-- scroll top button  -->
-
-<a href="#home" class="top">
-    <img src="images/scroll-top-img.png" alt="">
-</a>
-
-
-
-<!-- jquery cdn link  -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-
-<!-- custom js file link  -->
+<!-- Custom JS file link -->
 <script src="script.js"></script>
-
 
 </body>
 </html>
